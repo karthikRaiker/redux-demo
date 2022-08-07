@@ -1,0 +1,22 @@
+.Heading {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Post {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: space-around; */
+}
+.post-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  max-height: 500px;
+  border: 1px solid #333;
+  border-radius: 5%;
+  margin: 0.5rem;
+  padding: 1rem;
+}
